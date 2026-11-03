@@ -2,6 +2,10 @@
 
 Prototipo de estrategia **sin conexión**, desarrollado en **Godot 4.6.3 / GDScript** para avanzar hacia una APK Android. Nombre, gráficos procedurales y contenido propios; no utiliza recursos de Supercell.
 
+## APK Android
+
+Abre [Android APK en GitHub Actions](https://github.com/hsalazar66/Boombeachhs/actions/workflows/android.yml), entra en la última ejecución correcta y descarga su artefacto. Extrae el ZIP para instalar la APK. Es una compilación de depuración con firma temporal; consulta [instrucciones y limitaciones](docs/ANDROID.md).
+
 ## Ejecutar
 
 1. Instala Godot **4.6.3 estándar**, sin .NET.
@@ -30,7 +34,7 @@ godot --headless --path . --script tests/test_game.gd
 
 ## Estado y límites
 
-Es una **primera versión funcional**, no el cumplimiento completo de la especificación. No se ha generado ni validado una APK en un dispositivo Android. Ver [estado de requisitos](docs/ESTADO.md) y [exportación Android](docs/ANDROID.md).
+Es una **primera versión funcional**, no el cumplimiento completo de la especificación. El flujo Android APK genera una APK de pruebas descargable en GitHub Actions; consulta su última ejecución. La instalación y el rendimiento en un dispositivo Android aún requieren validación. Ver [estado de requisitos](docs/ESTADO.md) y [exportación Android](docs/ANDROID.md).
 
 La defensa es una evaluación numérica, el tutorial son indicaciones y las misiones comparten un escenario parametrizado. Falta acabado artístico, sonido, vibración efectiva, ajuste real de calidad gráfica, tutorial interactivo guiado, investigación en armería, balance, validación táctil en móviles y medición de rendimiento. No hay multijugador ni servicios de red.
 
