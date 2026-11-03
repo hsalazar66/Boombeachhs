@@ -1,0 +1,22 @@
+; Godot 4.6.3
+config_version=5
+
+[application]
+config/name="Archipiélago Libre"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/description="Estrategia sin conexión: construye, explora y conquista."
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/handheld/orientation=0
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.025, 0.08, 0.13, 1)
+
+[audio]
+driver/enable_input=false
